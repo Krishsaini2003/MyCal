@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #9f4191, #2c2096);
+}
+
+.calculator {
+    border: 1px solid #122d63;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(148, 71, 23, 0.5);
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    color: rgb(247, 244, 241);
+    font-weight: lighter;
+}
+
+input {
+    width: 320px;
+    border: 2px solid #122d63;
+    border-radius: 10px;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.5);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    color: #040100;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+button:hover {
+    color: #f41f08;
+}
+
+.equalBtn {
+    background-color: #fb7c14;
+}
+
+.operator {
+    color: #db7509f9;
+}
